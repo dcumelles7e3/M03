@@ -1,4 +1,4 @@
-package m3.uf5.iteradors;
+package m3.uf5.radio;
 
 public class Emissora {
     private double freq;

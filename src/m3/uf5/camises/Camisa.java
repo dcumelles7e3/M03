@@ -1,3 +1,5 @@
+package m3.uf5.camises;
+
 public class Camisa {
 
     private String talla;
