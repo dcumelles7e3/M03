@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Ex1 {
     public static void main(String[] args) {
-        File f = new File("src\\m3\\uf5\\repas\\arxiu.txt");
+        File f = new File("src\\m3\\uf5\\repas\\telefons.txt");
         HashMap<Integer,Double> hm = new HashMap<>();
         try {
             Scanner sc = new Scanner(f);
