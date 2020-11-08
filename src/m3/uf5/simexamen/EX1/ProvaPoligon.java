@@ -2,6 +2,9 @@ package m3.uf5.simexamen.EX1;
 
 public class ProvaPoligon {
 
+    /**
+     * @author Dídac Cumelles
+     */
     public static void main(String[] args) {
         ElMeuPoligon poligon = new ElMeuPoligon();
         poligon.afegirPunt(new Punt2D(1,3));
