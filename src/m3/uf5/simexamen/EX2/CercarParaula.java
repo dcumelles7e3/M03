@@ -2,7 +2,6 @@ package m3.uf5.simexamen.EX2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -11,7 +10,7 @@ import java.util.Scanner;
 public class CercarParaula {
     public static void main(String[] args) {
         HashMap<Integer, ArrayList<Integer>> map = new HashMap();
-        String regex = "(?i)(c|t)[\\s]*(s)";
+        String regex = "(?i)[c|t][a-z]*(s)";
         Scanner sc = new Scanner(System.in);
         List<String> linees = new ArrayList<>();
         List<String> matches = new ArrayList<>();
@@ -65,9 +64,6 @@ public class CercarParaula {
         System.out.println(map.toString());}
 
         System.out.println("Matches amb regex:");
-        for (String match : matches) {
-            System.out.println(match);
-        }
-
+        System.out.println(matches.toString());
     }
 }
