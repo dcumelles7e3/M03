@@ -13,6 +13,7 @@ public class ProvaRadio {
         radio.afegirEmissora(new Emissora(115.1, "Flamenco","GitanOLE"));
         radio.afegirEmissora(new Emissora(100.5, "Classica","CristalRoto"));
 
+
         for(Emissora e: radio) {
             System.out.println(e);
         }
